@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.5)50% , rgba(255, 255, 255, 0.5)50%),url(https://platincdn.com/2921/pictures/CHEVXENAXD10520180430_novelty-11134-2-duz-krem-renk-duvar-kagidi.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1450px;;
+
+}
+
+.navbar {
+    width: 1200px; 
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.logo {
+    color:  rgba(202, 121, 54, 0.89);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.h2 {
+    color:rgba(202, 121, 54, 0.89);
+    font-size: 34px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    padding-left: 20px;
+    float: left;
+}
+
+.menu {
+    width: 400px; 
+    height: 70px;
+    float: left;
+}
+
+.menu ul {
+    float: left; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 100px; 
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.menu ul li a {
+    color: rgb(216, 140, 78);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bolder;
+    transition: 0.3s ease-in;
+}
+
+.menu ul li a:hover {
+    color: rgb(119, 79, 40);
+}
+
+.search{
+    width: 340px;
+    margin-left: 250px;
+    float: left;
+}
+
+.search .srch{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(202, 121, 54, 0.89);
+    margin-top: 13px;
+    color:black;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgba(202, 121, 54, 0.89) ;
+    border: 2px solid rgba(202, 121, 54, 0.89);
+    margin-top: 13px;
+    color:azure;
+    font-size: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.box-container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+
+  .box1 {
+    height: 400px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 1;
+    display: flex; 
+  }
+  
+  .left-content,
+  .right-content {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-content img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.custom-button {
+    background-color: #3d2614;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+    background-color: #8c5e38;
+}
+
+
+.box2 {
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(214, 158, 121);
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.box3 {
+    width: 1010px;
+    height:370px;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    
+    
+}
+
+.box3 h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: rgba(58, 27, 1, 0.89);
+}
+
+
+.line {
+    width: 150px;
+    height: 2px;
+    background-color: rgba(202, 121, 54, 0.89);
+    margin: 0 auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu-box {
+    width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    padding:0;
+}
+
+.menu-list li {
+    margin-right: 15px; 
+}
+
+
+.menu-list a {
+    text-decoration: none;
+    color: #3d2614; 
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    transition: color 0.3s ease-in;
+    
+}
+
+.menu-list a:hover {
+    color: #8c5e38; 
+}
+
+.box-container-2 {
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 19%;
+    height: 200px; 
+    background-color: #ffffff;
+    padding: 10px; 
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 5px; 
+}
+.box img {
+    max-width: 100%;
+    max-height: 90%;
+    margin-bottom: 10px;
+}
+
+.box4 {
+    width: 1000px;
+    height: 200px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box4 img {
+    max-width: 40%; 
+    max-height: 90%;
+    margin-right: 20px;
+}
+
+.text-content {
+    flex-grow: 1;
+    text-align: center; 
+}
+
+.custom-button {
+    background-color: #3d2614;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px; 
+    align-self: flex-end; 
+}
+
+.footer {
+    width: 1200px;
+    margin: 20px auto;
+    background-color: rgb(119, 79, 40);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 180px;
+}
+
+.footer-content {
+    flex-grow: 1;
+    text-align: center;
+}
